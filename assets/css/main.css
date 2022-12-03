@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    width: 554px;
+    background-color: #FAFAFA;
+    color: #000;
+    margin-top: 100px;
+    padding: 23px 0px 40px 0px;
+    box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#main #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 32px;
+    border-bottom: 4px solid #41454D;
+}
+
+#main #header a {
+    display: block;
+    margin-bottom: 14px;
+    width: 290px;
+}
+
+#main #header a img {
+    width: 100%;
+}
+
+#main #header span {
+    color: #000000;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+#main form {
+    padding: 40px 40px 0px 40px;
+
+}
+
+#main form .form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main form .form-group:nth-child(4) {
+    margin-bottom: 0px !important;
+}
+
+#main form .form-group:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+#main form .form-group:not(:last-child) label {
+    padding-top: 10px;
+    flex-basis: 91px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main form .form-group:not(:last-child) div {
+    display: flex;
+    flex-basis: 360px;
+    flex-wrap: wrap;
+}
+
+#main form .form-group:not(:last-child) div>span {
+    margin-top: 10px;
+    color: #F00000;
+    font-size: 12px;
+}
+
+#main form .form-group:not(:last-child) input,
+textarea {
+    flex-basis: 360px;
+    border: none;
+    color: #1F2125;
+    padding: 11px 21.43px 11px 10px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #FAFAFA;
+}
+
+#main form .form-group:not(:last-child) input:hover {
+    border-color: #b1b1b1;
+    transition: all 0.25s;
+}
+
+#main form .form-group:not(:last-child) textarea:hover {
+    border-color: #b1b1b1;
+    transition: all 0.25s;
+}
+
+#main form input[type="file"] {
+    display: none;
+}
+
+#main form .form-group .form-group div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#main form .form-group .form-group label {
+    font-weight: normal !important;
+    font-size: 10px;
+    flex-basis: 0px;
+}
+
+#main form .form-group .form-group label {
+    cursor: pointer;
+}
+
+#main form .form-group .form-group label i {
+    font-size: 16px;
+}
+
+#main form .form-group:not(:last-child):nth-child(5) input::placeholder {
+    color: #1F2125;
+}
+
+select {
+    flex-basis: 360px;
+    border: none;
+    color: #82868E;
+    padding: 10px 21.43px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #FAFAFA;
+}
+
+select:hover {
+    border-color: #b1b1b1;
+    transition: all 0.25s;
+}
+
+#main form .form-group:not(:last-child) textarea {
+    resize: none;
+    height: 148px !important;
+}
+
+#main form .form-group:last-child input {
+    width: 320px;
+    height: 40px;
+    background: rgba(29, 172, 203, 0.68);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 3px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+#main form .form-group:last-child input:hover {
+    cursor: pointer;
+    background: rgba(44, 130, 151, 0.68);
+    transition: all 0.25s;
+}
+
+.mr-b {
+    margin-bottom: 10px !important;
+}
+
+.invalid {
+    border: 1px solid #F00000 !important;
+}
